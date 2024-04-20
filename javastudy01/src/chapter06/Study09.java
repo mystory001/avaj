@@ -3,8 +3,38 @@ package chapter06;
 public class Study09 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//메서드(객체지향개념, 클래스 안에) = 함수(클래스에 독립적)
+		//문장들을 묶어 놓은 것 => 작업단위로 문장들의 묶어서 이름을 붙인 것
+		//값(입력)을 받아서 처리하고, 결과를 반환(출력)
 
+		//메서드의 장점
+		//코드의 중복 ↓
+		//코드의 관리가 쉬움
+		//코드를 재활용할 수 있음
+		//코드가 간결해서 이해하기 쉬워짐
+		
+		//메서드의 작성
+		//반복적으로 수행되는 여러 문장을 메서드로 작성
+		//하나의 메서드는 한 가지 기능만  수행하도록 작성
+		
+		//메서드 = 선언부 + 구현부
+		// 반환타입 메서드이름(타입 변수면, 타입 변수명,...)
+		//{ 메서드 호출 시 수행될 코드 }
+		//매개변수 0~n개, 출력 0~1개
+		
+		//메서드의 구현부
+		//지역 변수(lv) : 메서드 내에 선언된 변수
+//		int add(int x, int y) {
+//			int result = x+y;
+//			return result;
+//		}
+//		
+//		int multiply(int x, int y) {
+//			int result = x*y;
+//			return result;
+//		}
+		
 	}
 
 }
