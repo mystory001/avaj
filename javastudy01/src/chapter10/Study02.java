@@ -22,7 +22,6 @@ public class Study02 {
 		t1.set(Calendar.HOUR_OF_DAY, 16);
 		t1.set(Calendar.MINUTE, 50);
 		t1.set(Calendar.SECOND, 20);
-		
 		System.out.println();
 		
 		//clear()는 Calendar 객체의 모든 필드를 초기화
