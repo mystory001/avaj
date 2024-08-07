@@ -1,5 +1,7 @@
 package programmers;
 
+import java.util.Arrays;
+
 public class 배수고르기 {
 	
 	public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class 배수고르기 {
 				cnt++;
 			}
 		}
-//		System.out.println(cnt);
+
 		int idx = 0;
 		answer = new int[cnt];
 		for(int val : temp) {
@@ -29,6 +31,10 @@ public class 배수고르기 {
 		for(int x : answer) {
 			System.out.println(x);
 		}
+		
+		//다른 풀이
+		Arrays.stream(numlist).filter(value -> value % n == 0).toArray();
+		
 		
 	}
 
