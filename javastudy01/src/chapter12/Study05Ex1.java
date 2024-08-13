@@ -22,7 +22,7 @@ class Grape05Ex1 extends Fruit05Ex1{
 		return "Grape";
 	}
 }
-class Toy{
+class Toy05Ex1{
 }
 
 class Box05Ex1<T>{
@@ -45,7 +45,7 @@ class FruitBox05Ex1<T extends Fruit05Ex1 & Eatable05Ex1> extends Box05Ex1<T>{
 							//,를 쓰지 않고 &를 사용
 }
 	
-public class Student05Ex1 {
+public class Study05Ex1 {
 
 	public static void main(String[] args) {
 		
@@ -53,7 +53,7 @@ public class Student05Ex1 {
 		FruitBox05Ex1<Apple05Ex1> appleBox = new FruitBox05Ex1();
 		FruitBox05Ex1<Grape05Ex1> grapeBox = new FruitBox05Ex1();
 //		FruitBox05Ex1<Grape05Ex1> grapeBox1 = new FruitBox05Ex1<Apple05Ex1p>(); //타입 불일치
-//		FruitBox05Ex1<Toy> toyBox = new FruitBox05Ex1(); // 에러
+//		FruitBox05Ex1<Toy05Ex1> toyBox = new FruitBox05Ex1(); // 에러
 		
 		fruitBox.add(new Fruit05Ex1());
 		fruitBox.add(new Apple05Ex1());
