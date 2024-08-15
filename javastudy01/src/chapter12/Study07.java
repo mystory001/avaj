@@ -41,9 +41,9 @@ public class Study07 {
 //		appleBox.add(new Grape());  // 에러. Grape는 Apple의 자손이 아님
 		grapeBox.add(new Grape());
 
-		System.out.println("fruitBox-"+fruitBox);
-		System.out.println("appleBox-"+appleBox);
-		System.out.println("grapeBox-"+grapeBox);		
+		System.out.println("fruitBox "+fruitBox);
+		System.out.println("appleBox "+appleBox);
+		System.out.println("grapeBox "+grapeBox);		
 	}
 }
 
