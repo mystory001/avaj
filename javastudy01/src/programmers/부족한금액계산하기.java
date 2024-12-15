@@ -23,8 +23,6 @@ public class 부족한금액계산하기 {
 			answer = totalMoney - money;
 		}
 		
-		// 다른 풀이
-		
 		
 	}
 
